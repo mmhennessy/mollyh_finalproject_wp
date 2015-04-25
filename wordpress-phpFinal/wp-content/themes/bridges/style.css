@@ -1,0 +1,59 @@
+/*
+Theme Name: Communication Bridges
+Theme URL: http://localhost:8888/wordpress-phpFinal/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%3A8888%2Fwordpress-phpFinal%2Fwp-admin%2Fedit.php%3Fpost_type%3Dpage&reauth=1
+Description: Theme is intened a friendly and open-minded and mood to match the topic of the website.
+Author: Molly M. Hennessy
+Versin: 1.0
+/*
+
+
+.main-nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.main-nav li {
+display: inline-block;
+margin: 0.7em;
+float: right;
+}
+.main-nav a {
+text-decoration: none;
+font-family: courier, sans-serif;
+font-size: 11px;
+color: #141469;
+}
+.main-nav li a:hover {
+text-decoration: none;
+}
+h1, h2 {
+font-family: Georgia, sans-serif;
+}
+h1 {
+font-size: 30px;
+color: #141469;
+}
+h2 {
+font-size: 24px;
+color: #244b0d;
+}
+.secA {
+max-width: 45%;
+float: left;
+}
+.secA li {
+font-family: Arial;
+font-size: 12px;
+}
+.secB {
+max-width: 45%;
+float: right;
+}
+.secB li {
+font-family: Arial;
+font-size: 12px;
+}
+footer {
+font-family: courier, sans-serif;
+font-size: 11px;
+}
