@@ -6,54 +6,74 @@ Author: Molly M. Hennessy
 Versin: 1.0
 /*
 
+* {
+	max-width: 900px;
+	margin: auto;
+}
+
+html {
+	Border: 5px solid  #141469;
+	margin: auto;
+}
 
 .main-nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 .main-nav li {
-display: inline-block;
-margin: 0.7em;
-float: right;
+	display: inline-block;
+	margin: 0.7em;
+	float: right;
 }
 .main-nav a {
-text-decoration: none;
-font-family: courier, sans-serif;
-font-size: 11px;
-color: #141469;
+	text-decoration: none;
+	font-family: courier, sans-serif;
+	font-size: 11px;
+	color: #141469;
 }
 .main-nav li a:hover {
-text-decoration: none;
+	text-decoration: none;
 }
 h1, h2 {
-font-family: Georgia, sans-serif;
+	font-family: Georgia, sans-serif;
 }
 h1 {
-font-size: 30px;
-color: #141469;
+	font-size: 30px;
+	text-align: center;
+	fonr-style: Italic;
+	color: #141469;
 }
 h2 {
-font-size: 24px;
-color: #244b0d;
+	font-size: 24px;
+	color: #244b0d;
+}
+img {
+	text-align: center;
+	padding: 50px;
+	margin: 10px;
 }
 .secA {
-max-width: 45%;
-float: left;
+	max-width: 45%;
+	float: left;
 }
 .secA li {
-font-family: Arial;
-font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
 }
 .secB {
-max-width: 45%;
-float: right;
+	max-width: 45%;
+	float: right;
 }
 .secB li {
-font-family: Arial;
-font-size: 12px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
 }
-#footer {
-font-family: courier, sans-serif;
-font-size: 11px;
+p {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+footer {
+	font-family: courier, sans-serif;
+	font-size: 11px;
 }
