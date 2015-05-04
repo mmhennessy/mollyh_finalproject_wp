@@ -1,5 +1,5 @@
 /*
-Theme Name: Communication Bridges
+Theme Name: Building Bridges
 Theme URL: http://localhost:8888/wordpress-phpFinal/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%3A8888%2Fwordpress-phpFinal%2Fwp-admin%2Fedit.php%3Fpost_type%3Dpage&reauth=1
 Description: Theme is intened a friendly and open-minded and mood to match the topic of the website.
 Author: Molly M. Hennessy
@@ -12,8 +12,9 @@ Versin: 1.0
 }
 
 html {
-	Border: 5px solid  #141469;
+	border: 5px solid  #141469;
 	margin: auto;
+	margin: 15px;
 }
 
 .main-nav ul {
@@ -49,7 +50,6 @@ h2 {
 	color: #244b0d;
 }
 img {
-	text-align: center;
 	padding: 50px;
 	margin: 10px;
 }
