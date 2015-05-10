@@ -32,6 +32,10 @@ html {
 	font-family: courier, sans-serif;
 	font-size: 11px;
 	color: #141469;
+	background-color: #3f7fcf;
+	transition-property: background-color;
+	transition-duration: 1s;
+	transtition-timing-function: ease;
 }
 .main-nav li a:hover {
 	text-decoration: none;
@@ -41,9 +45,12 @@ h1, h2 {
 }
 h1 {
 	font-size: 30px;
-	text-align: center;
 	fonr-style: Italic;
 	color: #141469;
+	transition-property: color;
+	transition-duration: 5ms;
+	transtition-timing-function: linear;
+	
 }
 h2 {
 	font-size: 24px;
@@ -52,6 +59,9 @@ h2 {
 img {
 	padding: 50px;
 	margin: 10px;
+	transition-property: img;
+	transition-duration: 1s;
+	transtition-timing-function: ease;
 }
 .secA {
 	max-width: 45%;
